@@ -1,0 +1,1879 @@
+-- Instances:
+
+local ZeosAdminSounds = Instance.new("ScreenGui")
+local Thanks = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local Version = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local Version_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local Main = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local SoundId = Instance.new("TextButton")
+local input = Instance.new("TextBox")
+local Volume = Instance.new("TextButton")
+local input_2 = Instance.new("TextBox")
+local Pitch = Instance.new("TextButton")
+local input_3 = Instance.new("TextBox")
+local TimePosition = Instance.new("TextButton")
+local input_4 = Instance.new("TextBox")
+local Effects_b = Instance.new("TextButton")
+local Effects = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local Effect = Instance.new("TextButton")
+local Disable = Instance.new("TextButton")
+local Effect_2 = Instance.new("TextButton")
+local Disable_2 = Instance.new("TextButton")
+local Effect_3 = Instance.new("TextButton")
+local Disable_3 = Instance.new("TextButton")
+local Effect_4 = Instance.new("TextButton")
+local Disable_4 = Instance.new("TextButton")
+local Effect_5 = Instance.new("TextButton")
+local Disable_5 = Instance.new("TextButton")
+local Effect_6 = Instance.new("TextButton")
+local Disable_6 = Instance.new("TextButton")
+local Effect_7 = Instance.new("TextButton")
+local Disable_7 = Instance.new("TextButton")
+local Effect_8 = Instance.new("TextButton")
+local Disable_8 = Instance.new("TextButton")
+local Effect_9 = Instance.new("TextButton")
+local Disable_9 = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local INFO = Instance.new("TextLabel")
+local INFO_2 = Instance.new("TextLabel")
+local INFO_3 = Instance.new("TextLabel")
+local INFO_4 = Instance.new("TextLabel")
+local INFO_5 = Instance.new("TextLabel")
+local INFO_6 = Instance.new("TextLabel")
+local INFO_7 = Instance.new("TextLabel")
+
+--Properties:
+
+ZeosAdminSounds.Name = "Zeo's Admin Sound's"
+ZeosAdminSounds.Parent = game.CoreGui
+ZeosAdminSounds.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ZeosAdminSounds.ResetOnSpawn = false
+
+Thanks.Name = "Thanks"
+Thanks.Parent = ZeosAdminSounds
+Thanks.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Thanks.Position = UDim2.new(0.187203795, 0, 0.450084597, 0)
+Thanks.Size = UDim2.new(0, 792, 0, 59)
+Thanks.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = Thanks
+
+TextLabel.Parent = Thanks
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.373737365, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 23)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Zeo's Admin Sound's"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Thanks
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.36994949, 0, 0.383050859, 0)
+TextLabel_2.Size = UDim2.new(0, 205, 0, 10)
+TextLabel_2.Font = Enum.Font.SourceSansItalic
+TextLabel_2.Text = "Thanks for useing Zeo's Admin Sounds!"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Thanks
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.13005051, 0, 0.616949201, 0)
+TextLabel_3.Size = UDim2.new(0, 586, 0, 10)
+TextLabel_3.Font = Enum.Font.SourceSansItalic
+TextLabel_3.Text = "in case you do not Know how to use This Hub Press F9 or Type /console to View th console and see Everything u can do!"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(20, 20, 20)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(30, 30, 30))}
+UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.20)}
+UIGradient.Parent = Thanks
+
+Version.Name = "Version"
+Version.Parent = Thanks
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.Position = UDim2.new(0.0142239584, 0, 1.10244083, 0)
+Version.Size = UDim2.new(0, 122, 0, 13)
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = Version
+
+TextLabel_4.Parent = Version
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.563234806, 0, 0.15384616, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 8)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Version:"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = TextLabel_4
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.569696963, 0, -0.0325622559, 0)
+TextLabel_5.Size = UDim2.new(0, 64, 0, 8)
+TextLabel_5.Font = Enum.Font.SourceSansItalic
+TextLabel_5.Text = "1.15.2"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(20, 20, 20)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(30, 30, 30))}
+UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.20)}
+UIGradient_2.Parent = Version
+
+Version_2.Name = "Version"
+Version_2.Parent = Thanks
+Version_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_2.Position = UDim2.new(0.175840124, 0, 1.10244083, 0)
+Version_2.Size = UDim2.new(0, 153, 0, 13)
+
+UICorner_3.CornerRadius = UDim.new(0, 15)
+UICorner_3.Parent = Version_2
+
+TextLabel_6.Parent = Version_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(-0.401330024, 0, 0.15384616, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 8)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Powered by:"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = TextLabel_6
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.674696922, 0, -0.0325622559, 0)
+TextLabel_7.Size = UDim2.new(0, 80, 0, 8)
+TextLabel_7.Font = Enum.Font.SourceSansItalic
+TextLabel_7.Text = "Core Sound's"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(20, 20, 20)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(30, 30, 30))}
+UIGradient_3.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.20)}
+UIGradient_3.Parent = Version_2
+
+Main.Name = "Main"
+Main.Parent = ZeosAdminSounds
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(2, 0, 0.462000012, 0)
+Main.Size = UDim2.new(0, 288, 0, 335)
+
+UICorner_4.CornerRadius = UDim.new(0, 15)
+UICorner_4.Parent = Main
+
+TextLabel_8.Parent = Main
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.257637799, 0, 0.0208955221, 0)
+TextLabel_8.Size = UDim2.new(0, 139, 0, 23)
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "Zeo's Admin Sound's"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(20, 20, 20)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(30, 30, 30))}
+UIGradient_4.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.20)}
+UIGradient_4.Parent = Main
+
+SoundId.Name = "SoundId"
+SoundId.Parent = Main
+SoundId.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+SoundId.BorderColor3 = Color3.fromRGB(100, 100, 100)
+SoundId.Position = UDim2.new(0.707746267, 0, 0.116417907, 0)
+SoundId.Size = UDim2.new(0, 72, 0, 15)
+SoundId.Font = Enum.Font.SourceSansItalic
+SoundId.Text = "Execute"
+SoundId.TextColor3 = Color3.fromRGB(255, 255, 255)
+SoundId.TextSize = 14.000
+
+input.Name = "input"
+input.Parent = SoundId
+input.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+input.BorderColor3 = Color3.fromRGB(100, 100, 100)
+input.Position = UDim2.new(-2.68055558, 0, 0, 0)
+input.Size = UDim2.new(0, 189, 0, 15)
+input.Font = Enum.Font.SourceSans
+input.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+input.Text = "Enter SoundID"
+input.TextColor3 = Color3.fromRGB(150, 150, 150)
+input.TextSize = 14.000
+
+Volume.Name = "Volume"
+Volume.Parent = Main
+Volume.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Volume.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Volume.Position = UDim2.new(0.707746267, 0, 0.179104477, 0)
+Volume.Size = UDim2.new(0, 72, 0, 15)
+Volume.Font = Enum.Font.SourceSansItalic
+Volume.Text = "Execute"
+Volume.TextColor3 = Color3.fromRGB(255, 255, 255)
+Volume.TextSize = 14.000
+
+input_2.Name = "input"
+input_2.Parent = Volume
+input_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+input_2.BorderColor3 = Color3.fromRGB(100, 100, 100)
+input_2.Position = UDim2.new(-2.68055558, 0, 0, 0)
+input_2.Size = UDim2.new(0, 189, 0, 15)
+input_2.Font = Enum.Font.SourceSans
+input_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+input_2.Text = "Enter Volume"
+input_2.TextColor3 = Color3.fromRGB(150, 150, 150)
+input_2.TextSize = 14.000
+
+Pitch.Name = "Pitch"
+Pitch.Parent = Main
+Pitch.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Pitch.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Pitch.Position = UDim2.new(0.707746267, 0, 0.24179104, 0)
+Pitch.Size = UDim2.new(0, 72, 0, 15)
+Pitch.Font = Enum.Font.SourceSansItalic
+Pitch.Text = "Execute"
+Pitch.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pitch.TextSize = 14.000
+
+input_3.Name = "input"
+input_3.Parent = Pitch
+input_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+input_3.BorderColor3 = Color3.fromRGB(100, 100, 100)
+input_3.Position = UDim2.new(-2.68055558, 0, 0, 0)
+input_3.Size = UDim2.new(0, 189, 0, 15)
+input_3.Font = Enum.Font.SourceSans
+input_3.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+input_3.Text = "Enter Speed"
+input_3.TextColor3 = Color3.fromRGB(150, 150, 150)
+input_3.TextSize = 14.000
+
+TimePosition.Name = "TimePosition"
+TimePosition.Parent = Main
+TimePosition.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TimePosition.BorderColor3 = Color3.fromRGB(100, 100, 100)
+TimePosition.Position = UDim2.new(0.707746267, 0, 0.304477602, 0)
+TimePosition.Size = UDim2.new(0, 72, 0, 15)
+TimePosition.Font = Enum.Font.SourceSansItalic
+TimePosition.Text = "Execute"
+TimePosition.TextColor3 = Color3.fromRGB(255, 255, 255)
+TimePosition.TextSize = 14.000
+
+input_4.Name = "input"
+input_4.Parent = TimePosition
+input_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+input_4.BorderColor3 = Color3.fromRGB(100, 100, 100)
+input_4.Position = UDim2.new(-2.68055558, 0, 0, 0)
+input_4.Size = UDim2.new(0, 189, 0, 15)
+input_4.Font = Enum.Font.SourceSans
+input_4.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+input_4.Text = "Enter TimePosition"
+input_4.TextColor3 = Color3.fromRGB(150, 150, 150)
+input_4.TextSize = 14.000
+
+Effects_b.Name = "Effects_b"
+Effects_b.Parent = Main
+Effects_b.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Effects_b.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Effects_b.Position = UDim2.new(0.0376074053, 0, 0.367164195, 0)
+Effects_b.Size = UDim2.new(0, 265, 0, 15)
+Effects_b.Font = Enum.Font.SourceSansItalic
+Effects_b.Text = "Effects"
+Effects_b.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effects_b.TextSize = 14.000
+
+Effects.Name = "Effects"
+Effects.Parent = Main
+Effects.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Effects.Position = UDim2.new(-1.02331805, 0, -0.00132839009, 0)
+Effects.Size = UDim2.new(0, 288, 0, 335)
+Effects.Visible = false
+
+UICorner_5.CornerRadius = UDim.new(0, 15)
+UICorner_5.Parent = Effects
+
+TextLabel_9.Parent = Effects
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.257637799, 0, 0.0208955221, 0)
+TextLabel_9.Size = UDim2.new(0, 139, 0, 23)
+TextLabel_9.Font = Enum.Font.SourceSansBold
+TextLabel_9.Text = "Admin Sound Effects"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(20, 20, 20)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(30, 30, 30))}
+UIGradient_5.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.20)}
+UIGradient_5.Parent = Effects
+
+Effect.Name = "Effect"
+Effect.Parent = Effects
+Effect.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Effect.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Effect.Position = UDim2.new(0.0306629613, 0, 0.0955223888, 0)
+Effect.Size = UDim2.new(0, 248, 0, 15)
+Effect.Font = Enum.Font.SourceSansItalic
+Effect.Text = "ReverbSoundEffect / RSE"
+Effect.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect.TextSize = 14.000
+
+Disable.Name = "Disable"
+Disable.Parent = Effect
+Disable.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Disable.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Disable.Position = UDim2.new(1.02562273, 0, 0, 0)
+Disable.Size = UDim2.new(0, 18, 0, 15)
+Disable.Font = Enum.Font.SourceSansItalic
+Disable.Text = "X"
+Disable.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable.TextSize = 14.000
+
+Effect_2.Name = "Effect"
+Effect_2.Parent = Effects
+Effect_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Effect_2.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Effect_2.Position = UDim2.new(0.0306629613, 0, 0.158208966, 0)
+Effect_2.Size = UDim2.new(0, 248, 0, 15)
+Effect_2.Font = Enum.Font.SourceSansItalic
+Effect_2.Text = "EquilizerSoundEffect / ESE"
+Effect_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_2.TextSize = 14.000
+
+Disable_2.Name = "Disable"
+Disable_2.Parent = Effect_2
+Disable_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Disable_2.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Disable_2.Position = UDim2.new(1.02562273, 0, 0, 0)
+Disable_2.Size = UDim2.new(0, 18, 0, 15)
+Disable_2.Font = Enum.Font.SourceSansItalic
+Disable_2.Text = "X"
+Disable_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable_2.TextSize = 14.000
+
+Effect_3.Name = "Effect"
+Effect_3.Parent = Effects
+Effect_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Effect_3.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Effect_3.Position = UDim2.new(0.0306629613, 0, 0.220895529, 0)
+Effect_3.Size = UDim2.new(0, 248, 0, 15)
+Effect_3.Font = Enum.Font.SourceSansItalic
+Effect_3.Text = "EchoSoundEffect / CSE"
+Effect_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_3.TextSize = 14.000
+
+Disable_3.Name = "Disable"
+Disable_3.Parent = Effect_3
+Disable_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Disable_3.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Disable_3.Position = UDim2.new(1.02562273, 0, 0, 0)
+Disable_3.Size = UDim2.new(0, 18, 0, 15)
+Disable_3.Font = Enum.Font.SourceSansItalic
+Disable_3.Text = "X"
+Disable_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable_3.TextSize = 14.000
+
+Effect_4.Name = "Effect"
+Effect_4.Parent = Effects
+Effect_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Effect_4.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Effect_4.Position = UDim2.new(0.0306629613, 0, 0.283582091, 0)
+Effect_4.Size = UDim2.new(0, 248, 0, 15)
+Effect_4.Font = Enum.Font.SourceSansItalic
+Effect_4.Text = "ChorusSoundEffect / SSE"
+Effect_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_4.TextSize = 14.000
+
+Disable_4.Name = "Disable"
+Disable_4.Parent = Effect_4
+Disable_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Disable_4.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Disable_4.Position = UDim2.new(1.02562273, 0, 0, 0)
+Disable_4.Size = UDim2.new(0, 18, 0, 15)
+Disable_4.Font = Enum.Font.SourceSansItalic
+Disable_4.Text = "X"
+Disable_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable_4.TextSize = 14.000
+
+Effect_5.Name = "Effect"
+Effect_5.Parent = Effects
+Effect_5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Effect_5.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Effect_5.Position = UDim2.new(0.0306629613, 0, 0.349253744, 0)
+Effect_5.Size = UDim2.new(0, 248, 0, 15)
+Effect_5.Font = Enum.Font.SourceSansItalic
+Effect_5.Text = "FlangeSoundEffect / FSE"
+Effect_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_5.TextSize = 14.000
+
+Disable_5.Name = "Disable"
+Disable_5.Parent = Effect_5
+Disable_5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Disable_5.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Disable_5.Position = UDim2.new(1.02562273, 0, 0, 0)
+Disable_5.Size = UDim2.new(0, 18, 0, 15)
+Disable_5.Font = Enum.Font.SourceSansItalic
+Disable_5.Text = "X"
+Disable_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable_5.TextSize = 14.000
+
+Effect_6.Name = "Effect"
+Effect_6.Parent = Effects
+Effect_6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Effect_6.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Effect_6.Position = UDim2.new(0.0306629613, 0, 0.411940306, 0)
+Effect_6.Size = UDim2.new(0, 248, 0, 15)
+Effect_6.Font = Enum.Font.SourceSansItalic
+Effect_6.Text = "CompressorSoundEffect / SSSES"
+Effect_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_6.TextSize = 14.000
+
+Disable_6.Name = "Disable"
+Disable_6.Parent = Effect_6
+Disable_6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Disable_6.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Disable_6.Position = UDim2.new(1.02562273, 0, 0, 0)
+Disable_6.Size = UDim2.new(0, 18, 0, 15)
+Disable_6.Font = Enum.Font.SourceSansItalic
+Disable_6.Text = "X"
+Disable_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable_6.TextSize = 14.000
+
+Effect_7.Name = "Effect"
+Effect_7.Parent = Effects
+Effect_7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Effect_7.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Effect_7.Position = UDim2.new(0.0306629613, 0, 0.477611959, 0)
+Effect_7.Size = UDim2.new(0, 248, 0, 15)
+Effect_7.Font = Enum.Font.SourceSansItalic
+Effect_7.Text = "TremoloSoundEffect / TSE"
+Effect_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_7.TextSize = 14.000
+
+Disable_7.Name = "Disable"
+Disable_7.Parent = Effect_7
+Disable_7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Disable_7.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Disable_7.Position = UDim2.new(1.02562273, 0, 0, 0)
+Disable_7.Size = UDim2.new(0, 18, 0, 15)
+Disable_7.Font = Enum.Font.SourceSansItalic
+Disable_7.Text = "X"
+Disable_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable_7.TextSize = 14.000
+
+Effect_8.Name = "Effect"
+Effect_8.Parent = Effects
+Effect_8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Effect_8.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Effect_8.Position = UDim2.new(0.0306629613, 0, 0.540298522, 0)
+Effect_8.Size = UDim2.new(0, 248, 0, 15)
+Effect_8.Font = Enum.Font.SourceSansItalic
+Effect_8.Text = "PitchShiftSoundEffect / PSE"
+Effect_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_8.TextSize = 14.000
+
+Disable_8.Name = "Disable"
+Disable_8.Parent = Effect_8
+Disable_8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Disable_8.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Disable_8.Position = UDim2.new(1.02562273, 0, 0, 0)
+Disable_8.Size = UDim2.new(0, 18, 0, 15)
+Disable_8.Font = Enum.Font.SourceSansItalic
+Disable_8.Text = "X"
+Disable_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable_8.TextSize = 14.000
+
+Effect_9.Name = "Effect"
+Effect_9.Parent = Effects
+Effect_9.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Effect_9.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Effect_9.Position = UDim2.new(0.0306629613, 0, 0.602985084, 0)
+Effect_9.Size = UDim2.new(0, 248, 0, 15)
+Effect_9.Font = Enum.Font.SourceSansItalic
+Effect_9.Text = "DistortionSoundEffect / DSE"
+Effect_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_9.TextSize = 14.000
+
+Disable_9.Name = "Disable"
+Disable_9.Parent = Effect_9
+Disable_9.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Disable_9.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Disable_9.Position = UDim2.new(1.02562273, 0, 0, 0)
+Disable_9.Size = UDim2.new(0, 18, 0, 15)
+Disable_9.Font = Enum.Font.SourceSansItalic
+Disable_9.Text = "X"
+Disable_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable_9.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = Effects
+Close.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Close.BorderColor3 = Color3.fromRGB(100, 100, 100)
+Close.Position = UDim2.new(0.0376074053, 0, 0.677611947, 0)
+Close.Size = UDim2.new(0, 265, 0, 15)
+Close.Font = Enum.Font.SourceSansItalic
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 14.000
+
+INFO.Name = "INFO"
+INFO.Parent = Main
+INFO.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+INFO.BackgroundTransparency = 0.300
+INFO.BorderColor3 = Color3.fromRGB(100, 100, 100)
+INFO.Position = UDim2.new(0.0376074053, 0, 0.429850757, 0)
+INFO.Size = UDim2.new(0, 265, 0, 15)
+INFO.Font = Enum.Font.SourceSansBold
+INFO.Text = "Made by: Zeo / @LifeTimeHD7"
+INFO.TextColor3 = Color3.fromRGB(150, 150, 150)
+INFO.TextSize = 14.000
+
+INFO_2.Name = "INFO"
+INFO_2.Parent = Main
+INFO_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+INFO_2.BackgroundTransparency = 0.300
+INFO_2.BorderColor3 = Color3.fromRGB(100, 100, 100)
+INFO_2.Position = UDim2.new(0.0376074053, 0, 0.477611959, 0)
+INFO_2.Size = UDim2.new(0, 265, 0, 15)
+INFO_2.Font = Enum.Font.SourceSansBold
+INFO_2.Text = "Discord: Emu#4221"
+INFO_2.TextColor3 = Color3.fromRGB(150, 150, 150)
+INFO_2.TextSize = 14.000
+
+INFO_3.Name = "INFO"
+INFO_3.Parent = Main
+INFO_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+INFO_3.BackgroundTransparency = 0.300
+INFO_3.BorderColor3 = Color3.fromRGB(100, 100, 100)
+INFO_3.Position = UDim2.new(0.0376074053, 0, 0.522388101, 0)
+INFO_3.Size = UDim2.new(0, 265, 0, 15)
+INFO_3.Font = Enum.Font.SourceSansBold
+INFO_3.Text = "Powered by: Core and Core Sounds"
+INFO_3.TextColor3 = Color3.fromRGB(150, 150, 150)
+INFO_3.TextSize = 14.000
+
+INFO_4.Name = "INFO"
+INFO_4.Parent = Main
+INFO_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+INFO_4.BackgroundTransparency = 0.300
+INFO_4.BorderColor3 = Color3.fromRGB(100, 100, 100)
+INFO_4.Position = UDim2.new(0.0376074053, 0, 0.567164242, 0)
+INFO_4.Size = UDim2.new(0, 265, 0, 15)
+INFO_4.Font = Enum.Font.SourceSansBold
+INFO_4.Text = "Version: 1.15.2"
+INFO_4.TextColor3 = Color3.fromRGB(150, 150, 150)
+INFO_4.TextSize = 14.000
+
+INFO_5.Name = "INFO"
+INFO_5.Parent = Main
+INFO_5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+INFO_5.BackgroundTransparency = 0.300
+INFO_5.BorderColor3 = Color3.fromRGB(100, 100, 100)
+INFO_5.Position = UDim2.new(0.0376074053, 0, 0.611940384, 0)
+INFO_5.Size = UDim2.new(0, 265, 0, 15)
+INFO_5.Font = Enum.Font.SourceSansBold
+INFO_5.Text = "Last Update: 2/18/2022"
+INFO_5.TextColor3 = Color3.fromRGB(150, 150, 150)
+INFO_5.TextSize = 14.000
+
+INFO_6.Name = "INFO"
+INFO_6.Parent = Main
+INFO_6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+INFO_6.BackgroundTransparency = 0.300
+INFO_6.BorderColor3 = Color3.fromRGB(100, 100, 100)
+INFO_6.Position = UDim2.new(0.0376074053, 0, 0.656716526, 0)
+INFO_6.Size = UDim2.new(0, 265, 0, 15)
+INFO_6.Font = Enum.Font.SourceSansBold
+INFO_6.Text = "Published: 2/18/2022"
+INFO_6.TextColor3 = Color3.fromRGB(150, 150, 150)
+INFO_6.TextSize = 14.000
+
+INFO_7.Name = "INFO"
+INFO_7.Parent = Main
+INFO_7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+INFO_7.BackgroundTransparency = 0.300
+INFO_7.BorderColor3 = Color3.fromRGB(100, 100, 100)
+INFO_7.Position = UDim2.new(0.0376074053, 0, 0.701492667, 0)
+INFO_7.Size = UDim2.new(0, 265, 0, 15)
+INFO_7.Font = Enum.Font.SourceSansBold
+INFO_7.Text = "Join Discord from Best ytber: MastersMZ"
+INFO_7.TextColor3 = Color3.fromRGB(150, 150, 150)
+INFO_7.TextSize = 14.000
+
+-- Scripts:
+
+local function URRIR_fake_script() -- TextLabel.Fade 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	local object = script.Parent.TextTransparency
+	
+	wait(10)
+	script.Parent.TextTransparency = 0.05
+	wait(0.01)
+	script.Parent.TextTransparency = 0.10
+	wait(0.01)
+	script.Parent.TextTransparency = 0.15
+	wait(0.01)
+	script.Parent.TextTransparency = 0.20
+	wait(0.01)
+	script.Parent.TextTransparency = 0.25
+	wait(0.01)
+	script.Parent.TextTransparency = 0.30
+	wait(0.01)
+	script.Parent.TextTransparency = 0.35
+	wait(0.01)
+	script.Parent.TextTransparency = 0.40
+	wait(0.01)
+	script.Parent.TextTransparency = 0.45
+	wait(0.01)
+	script.Parent.TextTransparency = 0.50
+	wait(0.01)
+	script.Parent.TextTransparency = 0.55
+	wait(0.01)
+	script.Parent.TextTransparency = 0.60
+	wait(0.01)
+	script.Parent.TextTransparency = 0.65
+	wait(0.01)
+	script.Parent.TextTransparency = 0.70
+	wait(0.01)
+	script.Parent.TextTransparency = 0.75
+	wait(0.01)
+	script.Parent.TextTransparency = 0.80
+	wait(0.01)
+	script.Parent.TextTransparency = 0.85
+	wait(0.01)
+	script.Parent.TextTransparency = 0.90
+	wait(0.01)
+	script.Parent.TextTransparency = 0.95
+	wait(0.01)
+	script.Parent.TextTransparency = 1
+	wait(12321123122213121231212312)
+	
+end
+coroutine.wrap(URRIR_fake_script)()
+local function BENDWXG_fake_script() -- Thanks.Fade 
+	local script = Instance.new('LocalScript', Thanks)
+
+	local object = script.Parent.BackgroundTransparency
+	
+	wait(10)
+	script.Parent.BackgroundTransparency = 0.05
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.10
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.15
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.20
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.25
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.30
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.35
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.40
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.45
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.50
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.55
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.60
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.65
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.70
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.75
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.80
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.85
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.90
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.95
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 1
+	wait(0.01)
+	script.Parent.Visible = false
+	
+end
+coroutine.wrap(BENDWXG_fake_script)()
+local function UYWWT_fake_script() -- TextLabel_2.Fade 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	local object = script.Parent.TextTransparency
+	
+	wait(10)
+	script.Parent.TextTransparency = 0.05
+	wait(0.01)
+	script.Parent.TextTransparency = 0.10
+	wait(0.01)
+	script.Parent.TextTransparency = 0.15
+	wait(0.01)
+	script.Parent.TextTransparency = 0.20
+	wait(0.01)
+	script.Parent.TextTransparency = 0.25
+	wait(0.01)
+	script.Parent.TextTransparency = 0.30
+	wait(0.01)
+	script.Parent.TextTransparency = 0.35
+	wait(0.01)
+	script.Parent.TextTransparency = 0.40
+	wait(0.01)
+	script.Parent.TextTransparency = 0.45
+	wait(0.01)
+	script.Parent.TextTransparency = 0.50
+	wait(0.01)
+	script.Parent.TextTransparency = 0.55
+	wait(0.01)
+	script.Parent.TextTransparency = 0.60
+	wait(0.01)
+	script.Parent.TextTransparency = 0.65
+	wait(0.01)
+	script.Parent.TextTransparency = 0.70
+	wait(0.01)
+	script.Parent.TextTransparency = 0.75
+	wait(0.01)
+	script.Parent.TextTransparency = 0.80
+	wait(0.01)
+	script.Parent.TextTransparency = 0.85
+	wait(0.01)
+	script.Parent.TextTransparency = 0.90
+	wait(0.01)
+	script.Parent.TextTransparency = 0.95
+	wait(0.01)
+	script.Parent.TextTransparency = 1
+	wait(12321123122213121231212312)
+	
+end
+coroutine.wrap(UYWWT_fake_script)()
+local function YNFCLAZ_fake_script() -- TextLabel_3.Fade 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	local object = script.Parent.TextTransparency
+	
+	wait(10)
+	script.Parent.TextTransparency = 0.05
+	wait(0.01)
+	script.Parent.TextTransparency = 0.10
+	wait(0.01)
+	script.Parent.TextTransparency = 0.15
+	wait(0.01)
+	script.Parent.TextTransparency = 0.20
+	wait(0.01)
+	script.Parent.TextTransparency = 0.25
+	wait(0.01)
+	script.Parent.TextTransparency = 0.30
+	wait(0.01)
+	script.Parent.TextTransparency = 0.35
+	wait(0.01)
+	script.Parent.TextTransparency = 0.40
+	wait(0.01)
+	script.Parent.TextTransparency = 0.45
+	wait(0.01)
+	script.Parent.TextTransparency = 0.50
+	wait(0.01)
+	script.Parent.TextTransparency = 0.55
+	wait(0.01)
+	script.Parent.TextTransparency = 0.60
+	wait(0.01)
+	script.Parent.TextTransparency = 0.65
+	wait(0.01)
+	script.Parent.TextTransparency = 0.70
+	wait(0.01)
+	script.Parent.TextTransparency = 0.75
+	wait(0.01)
+	script.Parent.TextTransparency = 0.80
+	wait(0.01)
+	script.Parent.TextTransparency = 0.85
+	wait(0.01)
+	script.Parent.TextTransparency = 0.90
+	wait(0.01)
+	script.Parent.TextTransparency = 0.95
+	wait(0.01)
+	script.Parent.TextTransparency = 1
+	wait(12321123122213121231212312)
+	
+end
+coroutine.wrap(YNFCLAZ_fake_script)()
+local function DUQMNY_fake_script() -- TextLabel_4.Fade 
+	local script = Instance.new('LocalScript', TextLabel_4)
+
+	local object = script.Parent.TextTransparency
+	
+	wait(10)
+	script.Parent.TextTransparency = 0.05
+	wait(0.01)
+	script.Parent.TextTransparency = 0.10
+	wait(0.01)
+	script.Parent.TextTransparency = 0.15
+	wait(0.01)
+	script.Parent.TextTransparency = 0.20
+	wait(0.01)
+	script.Parent.TextTransparency = 0.25
+	wait(0.01)
+	script.Parent.TextTransparency = 0.30
+	wait(0.01)
+	script.Parent.TextTransparency = 0.35
+	wait(0.01)
+	script.Parent.TextTransparency = 0.40
+	wait(0.01)
+	script.Parent.TextTransparency = 0.45
+	wait(0.01)
+	script.Parent.TextTransparency = 0.50
+	wait(0.01)
+	script.Parent.TextTransparency = 0.55
+	wait(0.01)
+	script.Parent.TextTransparency = 0.60
+	wait(0.01)
+	script.Parent.TextTransparency = 0.65
+	wait(0.01)
+	script.Parent.TextTransparency = 0.70
+	wait(0.01)
+	script.Parent.TextTransparency = 0.75
+	wait(0.01)
+	script.Parent.TextTransparency = 0.80
+	wait(0.01)
+	script.Parent.TextTransparency = 0.85
+	wait(0.01)
+	script.Parent.TextTransparency = 0.90
+	wait(0.01)
+	script.Parent.TextTransparency = 0.95
+	wait(0.01)
+	script.Parent.TextTransparency = 1
+	wait(12321123122213121231212312)
+	
+end
+coroutine.wrap(DUQMNY_fake_script)()
+local function PAYKK_fake_script() -- TextLabel_5.Fade 
+	local script = Instance.new('LocalScript', TextLabel_5)
+
+	local object = script.Parent.TextTransparency
+	
+	wait(10)
+	script.Parent.TextTransparency = 0.05
+	wait(0.01)
+	script.Parent.TextTransparency = 0.10
+	wait(0.01)
+	script.Parent.TextTransparency = 0.15
+	wait(0.01)
+	script.Parent.TextTransparency = 0.20
+	wait(0.01)
+	script.Parent.TextTransparency = 0.25
+	wait(0.01)
+	script.Parent.TextTransparency = 0.30
+	wait(0.01)
+	script.Parent.TextTransparency = 0.35
+	wait(0.01)
+	script.Parent.TextTransparency = 0.40
+	wait(0.01)
+	script.Parent.TextTransparency = 0.45
+	wait(0.01)
+	script.Parent.TextTransparency = 0.50
+	wait(0.01)
+	script.Parent.TextTransparency = 0.55
+	wait(0.01)
+	script.Parent.TextTransparency = 0.60
+	wait(0.01)
+	script.Parent.TextTransparency = 0.65
+	wait(0.01)
+	script.Parent.TextTransparency = 0.70
+	wait(0.01)
+	script.Parent.TextTransparency = 0.75
+	wait(0.01)
+	script.Parent.TextTransparency = 0.80
+	wait(0.01)
+	script.Parent.TextTransparency = 0.85
+	wait(0.01)
+	script.Parent.TextTransparency = 0.90
+	wait(0.01)
+	script.Parent.TextTransparency = 0.95
+	wait(0.01)
+	script.Parent.TextTransparency = 1
+	wait(12321123122213121231212312)
+	
+end
+coroutine.wrap(PAYKK_fake_script)()
+local function ZNEWFU_fake_script() -- Version.Fade 
+	local script = Instance.new('LocalScript', Version)
+
+	local object = script.Parent.BackgroundTransparency
+	
+	wait(10)
+	script.Parent.BackgroundTransparency = 0.05
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.10
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.15
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.20
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.25
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.30
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.35
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.40
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.45
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.50
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.55
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.60
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.65
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.70
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.75
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.80
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.85
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.90
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.95
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 1
+	wait(0.01)
+	script.Parent.Parent.Enabled = false
+	
+end
+coroutine.wrap(ZNEWFU_fake_script)()
+local function KMIHU_fake_script() -- TextLabel_6.Fade 
+	local script = Instance.new('LocalScript', TextLabel_6)
+
+	local object = script.Parent.TextTransparency
+	
+	wait(10)
+	script.Parent.TextTransparency = 0.05
+	wait(0.01)
+	script.Parent.TextTransparency = 0.10
+	wait(0.01)
+	script.Parent.TextTransparency = 0.15
+	wait(0.01)
+	script.Parent.TextTransparency = 0.20
+	wait(0.01)
+	script.Parent.TextTransparency = 0.25
+	wait(0.01)
+	script.Parent.TextTransparency = 0.30
+	wait(0.01)
+	script.Parent.TextTransparency = 0.35
+	wait(0.01)
+	script.Parent.TextTransparency = 0.40
+	wait(0.01)
+	script.Parent.TextTransparency = 0.45
+	wait(0.01)
+	script.Parent.TextTransparency = 0.50
+	wait(0.01)
+	script.Parent.TextTransparency = 0.55
+	wait(0.01)
+	script.Parent.TextTransparency = 0.60
+	wait(0.01)
+	script.Parent.TextTransparency = 0.65
+	wait(0.01)
+	script.Parent.TextTransparency = 0.70
+	wait(0.01)
+	script.Parent.TextTransparency = 0.75
+	wait(0.01)
+	script.Parent.TextTransparency = 0.80
+	wait(0.01)
+	script.Parent.TextTransparency = 0.85
+	wait(0.01)
+	script.Parent.TextTransparency = 0.90
+	wait(0.01)
+	script.Parent.TextTransparency = 0.95
+	wait(0.01)
+	script.Parent.TextTransparency = 1
+	wait(12321123122213121231212312)
+	
+end
+coroutine.wrap(KMIHU_fake_script)()
+local function NKEL_fake_script() -- TextLabel_7.Fade 
+	local script = Instance.new('LocalScript', TextLabel_7)
+
+	local object = script.Parent.TextTransparency
+	
+	wait(10)
+	script.Parent.TextTransparency = 0.05
+	wait(0.01)
+	script.Parent.TextTransparency = 0.10
+	wait(0.01)
+	script.Parent.TextTransparency = 0.15
+	wait(0.01)
+	script.Parent.TextTransparency = 0.20
+	wait(0.01)
+	script.Parent.TextTransparency = 0.25
+	wait(0.01)
+	script.Parent.TextTransparency = 0.30
+	wait(0.01)
+	script.Parent.TextTransparency = 0.35
+	wait(0.01)
+	script.Parent.TextTransparency = 0.40
+	wait(0.01)
+	script.Parent.TextTransparency = 0.45
+	wait(0.01)
+	script.Parent.TextTransparency = 0.50
+	wait(0.01)
+	script.Parent.TextTransparency = 0.55
+	wait(0.01)
+	script.Parent.TextTransparency = 0.60
+	wait(0.01)
+	script.Parent.TextTransparency = 0.65
+	wait(0.01)
+	script.Parent.TextTransparency = 0.70
+	wait(0.01)
+	script.Parent.TextTransparency = 0.75
+	wait(0.01)
+	script.Parent.TextTransparency = 0.80
+	wait(0.01)
+	script.Parent.TextTransparency = 0.85
+	wait(0.01)
+	script.Parent.TextTransparency = 0.90
+	wait(0.01)
+	script.Parent.TextTransparency = 0.95
+	wait(0.01)
+	script.Parent.TextTransparency = 1
+	wait(12321123122213121231212312)
+	
+end
+coroutine.wrap(NKEL_fake_script)()
+local function SDCCPPQ_fake_script() -- Version_2.Fade 
+	local script = Instance.new('LocalScript', Version_2)
+
+	local object = script.Parent.BackgroundTransparency
+	
+	wait(10)
+	script.Parent.BackgroundTransparency = 0.05
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.10
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.15
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.20
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.25
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.30
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.35
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.40
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.45
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.50
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.55
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.60
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.65
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.70
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.75
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.80
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.85
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.90
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 0.95
+	wait(0.01)
+	script.Parent.BackgroundTransparency = 1
+	wait(0.01)
+	script.Parent.Parent.Enabled = false
+	
+end
+coroutine.wrap(SDCCPPQ_fake_script)()
+local function ZJDKOAB_fake_script() -- ZeosAdminSounds.StartHub 
+	local script = Instance.new('LocalScript', ZeosAdminSounds)
+
+	wait(5)
+	
+	local starthubSound = Instance.new("Sound")
+	
+	starthubSound.Parent = game.Workspace
+	starthubSound.SoundId ="rbxassetid://5681615314"
+	starthubSound.Playing = true
+	starthubSound.Name ="StartUP"
+end
+coroutine.wrap(ZJDKOAB_fake_script)()
+local function ZJKX_fake_script() -- ZeosAdminSounds.How_to 
+	local script = Instance.new('LocalScript', ZeosAdminSounds)
+
+	wait(10)
+	print("| How to use Zeo's Admin Sound's |")
+	wait(0.01)
+	print(" ")
+	wait(0.01)
+	print("| Press F8 to Bring the Panle out and Back in! |")
+	wait(0.01)
+	print("| Enter any kind of id into The SoundId [TextBox] |")
+	wait(0.01)
+	print("| Enter any Value into Sound Speed to give the sound a Spicific Speed(P)! |")
+	wait(0.01)
+	print("| Enter any TimePosition into TimePosition to Skip a sound Position(T)! |")
+	wait(0.01)
+	print("| Enter any value into Sound Volume to give the sound a Spicific Volume(L)! |")
+	wait(0.01)
+	print(" ")
+	wait(0.01)
+	print("| [ - ] - Make sure you are on a Computer [Becaouse it's only Supported on PC, Mac etc..] |")
+	wait(0.01)
+	warn("| [ - ] - Your Code: RTE**'eq'21 [DONT SHARE THIS] |")
+	wait(0.01)
+	warn("| [ - ]Current Game Time: "..game.Lighting.TimeOfDay.."! |")
+end
+coroutine.wrap(ZJKX_fake_script)()
+local function KEWIH_fake_script() -- ZeosAdminSounds.Visible 
+	local script = Instance.new('LocalScript', ZeosAdminSounds)
+
+	wait(3)
+	script.Parent.Thanks.Visible = true
+end
+coroutine.wrap(KEWIH_fake_script)()
+local function MZMLTKX_fake_script() -- ZeosAdminSounds.SoundInstance 
+	local script = Instance.new('LocalScript', ZeosAdminSounds)
+
+	local AdminSound = Instance.new("Sound")
+	
+	AdminSound.Parent = game.SoundService
+	AdminSound.Name ="AdminSound"
+	AdminSound.Playing = false
+	AdminSound.Looped = false
+end
+coroutine.wrap(MZMLTKX_fake_script)()
+local function IPZIAUC_fake_script() -- SoundId.Effects&Functions 
+	local script = Instance.new('LocalScript', SoundId)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.SoundId ="rbxassetid://"..script.Parent.input.Text..""
+		wait(0.5)
+		game.SoundService.AdminSound:Play()
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(IPZIAUC_fake_script)()
+local function VTGUKRY_fake_script() -- input.Orginizer 
+	local script = Instance.new('LocalScript', input)
+
+	if script.Parent.Text =="" then
+		script.Parent.Text ="Enter SoundID"
+	end
+end
+coroutine.wrap(VTGUKRY_fake_script)()
+local function PGTKVYV_fake_script() -- Volume.Effects&Functions 
+	local script = Instance.new('LocalScript', Volume)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.Volume = script.Parent.input.Text
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(PGTKVYV_fake_script)()
+local function URPIEJ_fake_script() -- input_2.Orginizer 
+	local script = Instance.new('LocalScript', input_2)
+
+	if script.Parent.Text =="" then
+		script.Parent.Text ="Enter Volume"
+	end
+end
+coroutine.wrap(URPIEJ_fake_script)()
+local function RTOBWF_fake_script() -- Pitch.Effects&Functions 
+	local script = Instance.new('LocalScript', Pitch)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.PlaybackSpeed = script.Parent.input.Text
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(RTOBWF_fake_script)()
+local function GBAQUG_fake_script() -- input_3.Orginizer 
+	local script = Instance.new('LocalScript', input_3)
+
+	if script.Parent.Text =="" then
+		script.Parent.Text ="Enter Speed"
+	end
+end
+coroutine.wrap(GBAQUG_fake_script)()
+local function ENNR_fake_script() -- TimePosition.Effects&Functions 
+	local script = Instance.new('LocalScript', TimePosition)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.TimePosition = script.Parent.input.Text
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(ENNR_fake_script)()
+local function UDVRNTE_fake_script() -- input_4.Orginizer 
+	local script = Instance.new('LocalScript', input_4)
+
+	if script.Parent.Text =="" then
+		script.Parent.Text ="Enter TimePosition"
+	end
+end
+coroutine.wrap(UDVRNTE_fake_script)()
+local function AVOXJDI_fake_script() -- Effects_b.Effects&Functions 
+	local script = Instance.new('LocalScript', Effects_b)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Effects.Visible = true
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(AVOXJDI_fake_script)()
+local function UGGXRR_fake_script() -- Effect.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local RSE = Instance.new("ReverbSoundEffect")
+		
+		RSE.Parent = game.SoundService.AdminSound
+		RSE.Name ="RSE"
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(UGGXRR_fake_script)()
+local function AILJD_fake_script() -- Disable.Effects&Functions 
+	local script = Instance.new('LocalScript', Disable)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.RSE:Destroy()
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(AILJD_fake_script)()
+local function ACPAF_fake_script() -- Effect_2.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_2)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local ESE = Instance.new("EqualizerSoundEffect")
+		
+		ESE.Parent = game.SoundService.AdminSound
+		ESE.Name ="ESE"
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(ACPAF_fake_script)()
+local function SRKR_fake_script() -- Disable_2.Effects&Functions 
+	local script = Instance.new('LocalScript', Disable_2)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.ESE:Destroy()
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(SRKR_fake_script)()
+local function QVQG_fake_script() -- Effect_3.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_3)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local CSE = Instance.new("EchoSoundEffect")
+		
+		CSE.Parent = game.SoundService.AdminSound
+		CSE.Name ="CSE"
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(QVQG_fake_script)()
+local function MNLPU_fake_script() -- Disable_3.Effects&Functions 
+	local script = Instance.new('LocalScript', Disable_3)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.CSE:Destroy()
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(MNLPU_fake_script)()
+local function NGBGRT_fake_script() -- Effect_4.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_4)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local SSE = Instance.new("ChorusSoundEffect")
+		
+		SSE.Parent = game.SoundService.AdminSound
+		SSE.Name ="SSE"
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(NGBGRT_fake_script)()
+local function KWMQXX_fake_script() -- Disable_4.Effects&Functions 
+	local script = Instance.new('LocalScript', Disable_4)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.SSE:Destroy()
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(KWMQXX_fake_script)()
+local function AETZ_fake_script() -- Effect_5.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_5)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local FSE = Instance.new("FlangeSoundEffect")
+		
+		FSE.Parent = game.SoundService.AdminSound
+		FSE.Name ="FSE"
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(AETZ_fake_script)()
+local function ESPWJX_fake_script() -- Disable_5.Effects&Functions 
+	local script = Instance.new('LocalScript', Disable_5)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.FSE:Destroy()
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(ESPWJX_fake_script)()
+local function VAVF_fake_script() -- Effect_6.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_6)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local SSSES = Instance.new("CompressorSoundEffect")
+		
+		SSSES.Parent = game.SoundService.AdminSound
+		SSSES.Name ="SSSES"
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(VAVF_fake_script)()
+local function YDJW_fake_script() -- Disable_6.Effects&Functions 
+	local script = Instance.new('LocalScript', Disable_6)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.SSSES:Destroy()
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(YDJW_fake_script)()
+local function TDOSANK_fake_script() -- Effect_7.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_7)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local TSE = Instance.new("TremoloSoundEffect")
+		
+		TSE.Parent = game.SoundService.AdminSound
+		TSE.Name ="TSE"
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(TDOSANK_fake_script)()
+local function OSOWKS_fake_script() -- Disable_7.Effects&Functions 
+	local script = Instance.new('LocalScript', Disable_7)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.TSE:Destroy()
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(OSOWKS_fake_script)()
+local function FYXJVX_fake_script() -- Effect_8.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_8)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local PSE = Instance.new("PitchShiftSoundEffect")
+		
+		PSE.Parent = game.SoundService.AdminSound
+		PSE.Name ="PSE"
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(FYXJVX_fake_script)()
+local function AROKWW_fake_script() -- Disable_8.Effects&Functions 
+	local script = Instance.new('LocalScript', Disable_8)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.PSE:Destroy()
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(AROKWW_fake_script)()
+local function RMVGI_fake_script() -- Effect_9.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_9)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local DSE = Instance.new("DistortionSoundEffect")
+		
+		DSE.Parent = game.SoundService.AdminSound
+		DSE.Name ="DSE"
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(RMVGI_fake_script)()
+local function YWBQQVV_fake_script() -- Disable_9.Effects&Functions 
+	local script = Instance.new('LocalScript', Disable_9)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.AdminSound.DSE:Destroy()
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150,150,150)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+end
+coroutine.wrap(YWBQQVV_fake_script)()
+local function MQJFI_fake_script() -- Close.Effects&Functions 
+	local script = Instance.new('LocalScript', Close)
+
+	--[[ | Functions | ]]--
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	--[[ | Effects | ]]--
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(150, 69, 69)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(100,100,100)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text ="!CLOSE!"
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text ="Close"
+	end)
+end
+coroutine.wrap(MQJFI_fake_script)()
+local function GUBX_fake_script() -- INFO.Effect 
+	local script = Instance.new('LocalScript', INFO)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(200,200,200)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(150,150,150)
+	end)
+end
+coroutine.wrap(GUBX_fake_script)()
+local function LPQDR_fake_script() -- INFO_2.Effect 
+	local script = Instance.new('LocalScript', INFO_2)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(200,200,200)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(150,150,150)
+	end)
+end
+coroutine.wrap(LPQDR_fake_script)()
+local function EZCDVDY_fake_script() -- INFO_3.Effect 
+	local script = Instance.new('LocalScript', INFO_3)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(200,200,200)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(150,150,150)
+	end)
+end
+coroutine.wrap(EZCDVDY_fake_script)()
+local function BVUSUAC_fake_script() -- INFO_4.Effect 
+	local script = Instance.new('LocalScript', INFO_4)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(200,200,200)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(150,150,150)
+	end)
+end
+coroutine.wrap(BVUSUAC_fake_script)()
+local function DNUE_fake_script() -- INFO_5.Effect 
+	local script = Instance.new('LocalScript', INFO_5)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(200,200,200)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(150,150,150)
+	end)
+end
+coroutine.wrap(DNUE_fake_script)()
+local function FMDC_fake_script() -- INFO_6.Effect 
+	local script = Instance.new('LocalScript', INFO_6)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(200,200,200)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(150,150,150)
+	end)
+end
+coroutine.wrap(FMDC_fake_script)()
+local function DVOO_fake_script() -- INFO_7.Effect 
+	local script = Instance.new('LocalScript', INFO_7)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(200,200,200)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(150,150,150)
+	end)
+end
+coroutine.wrap(DVOO_fake_script)()
+local function PAGWWVW_fake_script() -- Main.DraggingScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(PAGWWVW_fake_script)()
+local function RLWB_fake_script() -- nil.Lounch 
+	local script = Instance.new('LocalScript', nil)
+
+	wait(5)
+	script.Parent.Parent.Visible = true
+end
+coroutine.wrap(RLWB_fake_script)()
+local function VOUSAYF_fake_script() -- Main.KeyBind 
+	local script = Instance.new('LocalScript', Main)
+
+	local MainFrame = script.Parent
+	local Opened = false
+	
+	local PositionClosed = UDim2.new(2, 0,0.462, 0)
+	local PositionOpened = UDim2.new(0.761, 0,0.462, 0)
+	
+	local UIS = game:GetService("UserInputService")
+	
+	UIS.InputBegan:Connect(function(KeyCode)
+		if KeyCode.KeyCode == Enum.KeyCode.F8 then
+			if Opened then
+				MainFrame:TweenPosition((PositionClosed), "InOut", "Quint")
+				Opened = false
+			else
+				MainFrame:TweenPosition((PositionOpened), "InOut", "Quart")
+				Opened = true
+			end
+		end
+	end)
+end
+coroutine.wrap(VOUSAYF_fake_script)()
